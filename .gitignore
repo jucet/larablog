@@ -11,3 +11,4 @@ Homestead.json
 .env
 composer.phar
 composer.lock
+id_rsa
