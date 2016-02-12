@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!--
-// THIS IS A LAYOUT
-
-// this will have all the repetitive code
-// find all that is the same in all pages
-// whatever that is differents gets deleted
-
-// @yield('content')
-
-//in the page (view) we include:
-// @extends ('main')
-// @section('content')
-// ...
-// @endsection
--->
-
-
   <head>
 
     <meta charset="utf-8">
@@ -82,7 +64,6 @@
 
     <div class="container">
 
-      <!-- container contents here -->
       @yield('content')
 
     </div>
