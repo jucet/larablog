@@ -17,6 +17,9 @@ Route::get('about','PagesController@getAbout');
 
 Route::get('/','PagesController@getIndex');
 
+// create the Routes for the crud functions with 'resource' simples!
+Route::resource('posts', 'PostController');
+
 
 
 /*
