@@ -22,6 +22,8 @@ Route::resource('posts', 'PostController');
 
 
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
